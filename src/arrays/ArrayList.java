@@ -28,7 +28,7 @@ public class ArrayList<E> {
 	 */
 	
 	public boolean isEmpty() {
-		return this.size == 0;
+		return size == 0;
 	}
 	
 	/**
@@ -38,7 +38,7 @@ public class ArrayList<E> {
 	 */
 	
 	public int size() {
-		return this.size;
+		return size;
 	}
 	
 	/**
@@ -49,7 +49,7 @@ public class ArrayList<E> {
 	 */
 	
 	public boolean add(E e) {
-		if (size <= elements.length) {
+		if (size < elements.length) {
 			elements[size++] = e;
 			return true;
 		} else {
@@ -59,6 +59,7 @@ public class ArrayList<E> {
 				new_list[i] = elements[i];
 			}
 			elements = new_list;
+			elements[size++] = e;
 			return true;
 		}
 	}
@@ -111,25 +112,6 @@ public class ArrayList<E> {
 		E previousElement = (E) elements[index];
 		elements[index] = element;
 		return previousElement;
-	}
-	
-	/**
-	 * Test cases
-	 * 
-	 * @param args
-	 */
-	
-	public static void main(String args[]) {
-		ArrayList<Integer> test = new ArrayList<Integer>();
-		test.add(10);
-		test.add(20);
-		test.add(7);
-		System.out.println(test.get(0));
-		System.out.println(test.get(1));
-		System.out.println(test.get(2));
-		test.remove(1);
-		System.out.println(test.get(0));
-		System.out.println(test.get(1));
 	}
 	
 }
