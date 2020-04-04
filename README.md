@@ -29,3 +29,10 @@ https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
 	- [ ] getLast() - return the last element in the list
 	- [ ] get(index) - return the element at the given index
 	- [ ] set(element, index) - replace an element at the given index
+	
+## Data Structures practice problems
+- [ ] Check brackets in code [Stack]
+- [ ] Extending stack interface [Stack]
+- [ ] Network packet processing [Queue]
+- [ ] Maximum sliding window [Stack/Queue]
+- [ ] Compute tree height [Tree]
