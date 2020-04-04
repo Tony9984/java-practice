@@ -31,6 +31,7 @@ https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
 	- [ ] set(element, index) - replace an element at the given index
 	
 ## Data Structures practice problems
+*Taken from UC San Diego Coursera course*
 - [ ] Check brackets in code [Stack]
 - [ ] Extending stack interface [Stack]
 - [ ] Network packet processing [Queue]
