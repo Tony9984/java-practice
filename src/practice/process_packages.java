@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.ArrayDeque;
 import java.util.Scanner;
 
+// TODO: FINISH EXERCISE WHEN I HAVE THE TIME
+
 class Request {
     public Request(int arrival_time, int process_time) {
         this.arrival_time = arrival_time;
